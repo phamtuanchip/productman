@@ -1,0 +1,81 @@
+/* CSS Document */
+.CategoryContent {
+}
+.CategoryContent .BorderClass {
+	border:solid 1px red;
+}
+.CategoryContent .BarStyle {
+	
+}
+.CategoryContent .BarStyle .TopLeftBar {	
+	width:auto;
+	height:26px;
+	padding-left:12px;
+	background:url(TitleRoundBoxLeft.gif) no-repeat left ;
+}
+.CategoryContent .BarStyle .TopRightBar {
+	width:auto;
+	height:26px;
+	padding-right:12px;
+	background:url(TitleRoundBoxRight.gif) no-repeat right ;
+}
+.CategoryContent .BarStyle .TopCenterBar {
+	width:auto;
+	height:26px;	
+	background:url(TitleRoundBoxCenter.gif) repeat-x;
+	cursor:pointer;
+}
+
+.CategoryContent .BarStyle .TopCenterBarOver {
+	width:auto;
+	height:26px;	
+	background:url(TitleRoundBoxLightCenter.gif) repeat-x;
+	cursor:pointer;
+}
+
+
+.CategoryContent .BarStyle .TopTitle {
+	text-align:center ;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size:16px;
+	margin-top:3px;
+}
+.CategoryContent .BarStyle .MiddleLeft {
+	border-left: solid 3px #acacac;
+  background-color: white ;
+  padding-left: 3px;
+	width:auto;
+	
+}
+.CategoryContent .BarStyle .MiddleRight{	
+	padding-right: 3px ;
+  border-right: solid 3px #acacac ;
+  background-color: white ;	
+	width:auto;
+  border-bottom: solid 1px white;  /*fix bug on IE*/
+}
+.CategoryContent .BarStyle .MiddleCenter{	
+	border:solid 1px blue;	
+	margin:auto ;
+	padding-bottom:16px;
+	padding-top:16px;
+}
+
+.CategoryContent .BarStyle .CategoryName {
+	margin:auto ;	
+	padding-left:16px;	
+	line-height:normal;
+	font-size:14px;
+}
+.CategoryContent .BarStyle .CategoryName a{
+	
+}
+
+
+
+.CategoryContent .BarStyle .BottomLeft {
+}
+.CategoryContent .BarStyle .BottomRight{
+}
+.CategoryContent .BarStyle .BottomCenter{
+}

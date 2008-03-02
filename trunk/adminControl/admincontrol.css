@@ -1,0 +1,222 @@
+@import url("icons.css");
+/* CSS Document */
+
+
+
+.AdminControl {
+	font-size:18px;
+	font-family:Geneva, Arial, Helvetica, sans-serif ;
+}
+
+.AdminControl a {
+	text-decoration:none ;
+}
+
+.AdminControl .OverFlowHidden {
+	width:100% ;
+	overflow:hidden ;
+}
+.AdminControl .LeftBlock {
+	float:left ;
+}
+.AdminControl .RightBlock{
+	float:right ;
+}
+.AdminControl .ClearBoth {
+	clear:both ;
+}
+.AdminControl .BorderClass {
+	border:solid 0px #CCCCCC ;
+}
+
+.AdminControl .Default {
+
+}
+
+.AdminControl .Default .Banner {
+	width: auto ;
+	height:120px;
+	line-height:120px;
+}
+.AdminControl .Default .Navigator {
+	width:auto;
+	height:30px;
+	line-height:30px;
+}
+
+.AdminControl .Default .Navigator .LeftBar {
+	width:auto;
+	height:30px;
+	line-height:30px;
+	padding-left:8px;	
+	background:url(image/box/admincontrol2_r1_c1.gif) left no-repeat;	
+}
+.AdminControl .Default .Navigator .RightBar {
+	width:auto;
+	height:30px;	
+	line-height:30px;
+	padding-right:8px;	
+	background:url(image/box/admincontrol2_r1_c5.gif) right no-repeat;
+}
+.AdminControl .Default .Navigator .MiddleBar {
+	width:auto;
+	height:30px;	
+	line-height:30px;				
+	font-weight:bold ;
+	color:#CCCCCC ;
+	background:url(image/box/admincontrol2_r1_c3.gif) repeat-x;
+}
+
+
+.AdminControl .Default .Body {	
+	width:auto ;
+	border-bottom:solid 2px #2a4dab;
+	border-left:solid 2px #2a4dab ;
+	border-right:solid 2px #2a4dab;
+}
+
+.AdminControl .Default .Body .LeftSide {
+	width:220px;	
+}
+
+.AdminControl .Default .Body .LeftSide .ControlMenu {
+	width:210px;	
+	margin:5px;
+}
+
+.AdminControl .Default .Body .LeftSide .ControlMenu .UserInfo {
+	width:auto ;
+	height:32px;
+	line-height:32px;	
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu {
+	width:210px;	
+	margin:5px;
+}
+
+.AdminControl .Default .Body .LeftSide .ControlMenu .Icon16x16{
+	width:16px;	
+	height:16px;
+	margin:3px;	
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu .LeftBar {
+	width:auto;
+	height:23px;
+	line-height:23px;		
+	padding-left:5px;	
+	background:url(image/admincontrol_r1_c1.gif) left no-repeat;	
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu .RightBar {
+	width:auto;
+	height:23px;	
+	line-height:23px;		
+	padding-right:5px;	
+	background:url(image/admincontrol_r1_c5.gif) right no-repeat;
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu .MiddleBar {
+	width:auto;
+	height:23px;	
+	line-height:23px;		
+	cursor:pointer;
+	text-align:left ;		
+	font-weight:bold ;
+	color:#CCCCCC ;
+	background:url(image/admincontrol_r1_c3.gif) repeat-x;
+}
+
+.AdminControl .Default .Body .LeftSide .ControlMenu .LeftBar32 {
+	width:auto;
+	height:32px;
+	line-height:32px;
+	padding-left:32px;	
+	background:url(image/admincontrolBar_r1_c1.gif) left no-repeat;	
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu .RightBar32 {
+	width:auto;
+	height:32px;	
+	line-height:32px;
+	padding-right:4px;	
+	background:url(image/admincontrolBar_r1_c7.gif) right no-repeat;
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu .MiddleBar32 {
+	width:auto;
+	height:32px;	
+	line-height:32px;		
+	cursor:pointer;
+	text-align:left ;		
+	font-weight:bold ;
+	vertical-align:text-bottom ;
+	color:#CCCCCC ;
+	background:url(image/admincontrolBar_r2_c7.gif) repeat-x;
+}
+
+.AdminControl .Default .Body .LeftSide .ControlMenu .MenuContent {
+	width:auto;	
+	height:auto;
+	margin:0px;
+	border-bottom:solid 1px #2a4dab ;
+	border-left:solid 1px #2a4dab ;
+	border-right:solid 1px #2a4dab ;
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu .ActionLinkHolder {
+	width:auto;	
+	height:26px;
+	line-height:26px;
+	padding-left:5px;
+	padding-right:2px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.AdminControl .Default .Body .LeftSide .ControlMenu .ActionLink {
+	width:auto;	
+	height:26px;
+		
+}
+
+
+.AdminControl .Default .Body .RightParth {
+	width:auto ;
+	margin-left:220px;
+}
+.AdminControl .Default .Body .RightParth .Center{
+	vertical-align:top;
+}
+.AdminControl .Default .Body .RightParth .Center .Tips{
+	width:auto ;
+	height:50px;
+	text-align:center;
+	padding-top:20px;	
+}
+
+.AdminControl .Default .Body .RightParth .Center .Icons{
+	width:48px;
+	height:48px;
+	margin:10px;	
+}
+.AdminControl .Default .Body .RightParth .Center .Links{	
+	height:48px;
+	line-height:48px;	
+	margin:10px;	
+}
+
+.AdminControl .Default .Body .RightParth .Center .ActionColectHolder{
+	
+}
+.AdminControl .Default .Body .RightParth .Center .ActionColectLeft{
+	width:45%;
+	padding-left:10px;	
+}
+
+
+.AdminControl .Default .Body .RightParth .Center .ActionColectRight{
+	width:45%;
+	padding-left:10px;		
+}
+.AdminControl .Default .Body .RightParth .RightSide {
+
+}
+
+.AdminControl .Default .Footer{
+	width:auto;
+	height:30px;
+}

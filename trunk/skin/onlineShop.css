@@ -1,0 +1,626 @@
+.ProductIcon {
+	width:22px;
+	height:22px;			
+	background:url(../sourceImage/icons/folder_mini.gif) no-repeat  ;
+	margin:2px;
+}
+.LogoutIcon {
+	width:22px;
+	height:22px;			
+	background:url(../sourceImage/icons/regester.gif) no-repeat ;
+	margin:2px;
+}
+
+.NewIcon{
+	width:22px;
+	height:22px;			
+	background:url(../sourceImage/icons/newIcon.gif) no-repeat ;
+	margin:2px;
+}
+.RegesterIcon {
+	width:22px;
+	height:22px;
+	background:url(../sourceImage/icons/regester.gif) no-repeat ;
+	margin:2px;
+}
+
+/* end icon */
+.OnlineShop {
+	
+}
+.OnlineShop a {
+	text-decoration:none ;
+}
+
+.OnlineShop .OverFlowHidden {
+	overflow:hidden ;
+	width:100%;
+}
+.OnlineShop .ClearAll {
+	clear:both;
+}
+
+.OnlineShop .BorderClass {
+	border:solid 0px blue;
+}
+.OnlineShop .LeftBlock {
+	float:left ;
+}
+.OnlineShop .RightBlock {
+	float:right ;
+}
+.OnlineShop .Default .SearchResultName {
+	margin:auto;
+	height:25px;	
+	color:#FF0000 ;
+	font-weight:bold ;
+	font-style:italic ; 
+	line-height:normal;
+}
+.OnlineShop .Default .SearchResultName .SearchResultDes {
+	font-style:italic; 
+	color:#003399; 
+	font-weight:100;
+}
+
+.OnlineShop .Default {
+	margin:auto;
+}
+.OnlineShop .Default input {
+	width:200px;
+}
+.OnlineShop .Default textarea {
+	width:200px;
+}
+
+.OnlineShop .Default .formItem {
+	width:15px;
+}
+
+
+.OnlineShop .Default .Banner{
+	width: auto ;
+	height:120px;
+	line-height:120px;
+}
+.OnlineShop .Default .Banner .BannerHolder{
+	width: auto ;
+	height:120px;
+	line-height:120px;
+	border:solid 1px red;
+}
+.OnlineShop .Default .Banner .BannerHolder .BannerImage{
+	width: auto ;
+	height:120px;
+	line-height:120px;
+	border:none ;
+}
+
+
+
+
+
+/*#######-------NavigatorContent-------######*/
+.OnlineShop .Default .Navigator{
+	width:auto ;
+}
+
+
+.OnlineShop .Default .Navigator .NavigatorContent {
+	width:auto;
+	height:36px;
+	line-height:36px;
+	background:url(../sourceImage/navigatorbg.gif) repeat-x;
+}
+.OnlineShop .Default .Navigator .NavigatorContent .SearchForm{
+	width:auto;
+	height:36px;
+	line-height:36px;
+	margin-top:4px;
+}
+.OnlineShop .Default .Navigator .NavigatorContent .SearchInput{
+	width:80px;	
+	margin-top:2px;
+}
+.OnlineShop .Default .Navigator .NavigatorContent .SelectCategory{
+	width:120px;	
+	margin-top:2px;
+}
+.OnlineShop .Default .Navigator .NavigatorContent .SearchLabel{	
+	vertical-align:middle;
+	line-height:31px;
+	margin-top:0px;
+}
+
+.OnlineShop .Default .Navigator .NavigatorContent .SearchButton{
+	width:24px;	
+	height:24px;
+	font-size:14px;
+	margin:4px;
+	background:url(../sourceImage/icons/searchbutton.gif) no-repeat;
+	cursor:pointer ;
+}
+.OnlineShop .Default .Navigator .NavigatorContent .LinkHolder {
+	width:auto;
+	height:31px;
+	line-height:31px;	
+	padding-right:10px;
+	overflow: hidden ;	
+}
+.OnlineShop .Default .Navigator .NavigatorContent .Link {
+	width:auto;
+	height:31px;
+	line-height:31px;	
+	margin-right:10px;
+	margin-top:4px;	
+	text-align:center ;
+}
+
+.OnlineShop .Default .Navigator .NavigatorContent .Link a{	
+	font-weight:bold ;
+}
+
+.OnlineShop .Default .Navigator .NavigatorContent .Seperator { 
+ height:28px; 
+ line-height:28px;
+ margin-right:10px;
+ margin-top:3px;
+ border-left:solid 2px #CCCCCC ;
+}
+.OnlineShop .Default .Body{
+	margin:auto ;
+	
+}
+
+.OnlineShop .Default .Body .LeftBar{
+	width:auto;
+	height:27px;
+	padding-left:0px;	
+	background:url(../sourceImage/titlebar_bg.gif) left;
+	height:auto;
+}
+.OnlineShop .Default .Body .RightBar{
+	width:auto;
+	height:27px;	
+	background:url(../sourceImage/titlebar_bg.gif) right;
+}
+.OnlineShop .Default .Body .TitleBar{
+	width:auto;
+	height:27px;	
+	text-align:center;
+	cursor:pointer;
+	line-height:27px;	
+	font-weight:bold;	
+	color:#FFFFCC ;
+}
+
+.OnlineShop .Default .Body .TitleBarOver{
+	width:auto;
+	height:27px;	
+	text-align:center;
+	cursor:pointer;
+	line-height:27px;
+	font-weight:bold;	
+	
+	color:#FFFFFF ;
+}
+.OnlineShop .Default .Body .Ranking0{
+	width:60px;
+	height:12px;
+	margin-top:4px;
+	background:url(../sourceImage/stars/0.gif) no-repeat left;
+}
+.OnlineShop .Default .Body .Ranking1{
+	width:60px;
+	height:12px;
+	margin-top:4px;
+	background:url(../sourceImage/stars/1.gif) no-repeat left;
+}
+.OnlineShop .Default .Body .Ranking2{
+	width:60px;
+	height:12px;
+	margin-top:4px;
+	background:url(../sourceImage/stars/2.gif) no-repeat left;
+}
+.OnlineShop .Default .Body .Ranking3{
+	width:60px;
+	height:12px;
+	margin-top:4px;
+	background:url(../sourceImage/stars/3.gif) no-repeat left;
+}
+.OnlineShop .Default .Body .Ranking4{
+	width:60px;
+	height:12px;
+	margin-top:4px;
+	background:url(../sourceImage/stars/4.gif) no-repeat left;
+}
+.OnlineShop .Default .Body .Ranking5{
+	width:60px;
+	height:12px;
+	margin-top:4px;
+	background:url(../sourceImage/stars/5.gif) no-repeat left;
+}
+
+/* ################ BODY LEFT SIDE #################*/
+.OnlineShop .Default .Body .LeftSide{
+	width:220px;	
+}
+.OnlineShop .Default .Body .LeftSide .Category{
+	margin-bottom:4px;
+}
+.OnlineShop .Default .Body .LeftSide .News{
+	margin-bottom:4px;
+}
+.OnlineShop .Default .Body .LeftSide .ShoppingCart{		
+	margin-bottom:4px;
+}
+.OnlineShop .Default .Body .LeftSide .ShoppingCart .CartContent{		
+	font-size:16px;		
+}
+.OnlineShop .Default .Body .LeftSide .ShoppingCart .ItemName{		
+	font-style:italic;
+	text-transform:lowercase;
+	text-align:center;
+}
+.OnlineShop .Default .Body .LeftSide .ShoppingCart .ItemQty{		
+	font-style:italic;
+	text-transform:lowercase;
+	text-align:right;
+}
+.OnlineShop .Default .Body .LeftSide .ShoppingCart .ItemImage{		
+	border:none;
+}
+.OnlineShop .Default .Body .LeftSide .ShoppingCart .ItemPrices{		
+	font-style:italic;
+	font-weight:bold;
+	color:#3333FF;
+	cursor:pointer;
+	text-align:right;
+}
+
+.OnlineShop .Default .Body .LeftSide .Feedback{
+	margin:2px 2px;
+}
+
+/*#######-------LeftSide category-------######*/
+
+.OnlineShop .Default .Body .LeftSide .Content{
+	width:auto;
+	background-color:#FFFFDD;	
+}
+
+.OnlineShop .Default .Body .LeftSide .Content .Holder{
+	width:auto;	
+	font-size:16px;	
+	border-bottom:solid 1px red ;		
+	height:27px;
+}
+.OnlineShop .Default .Body .LeftSide .Content .HolderOver{
+	width:auto;	
+	font-size:16px;	
+	border-bottom:solid 1px red ;		
+	height:27px;
+	background-color:#ADC5E3;
+}
+
+
+.OnlineShop .Default .Body .LeftSide .Content .CategoryName{		
+	margin:1px;
+	text-align:left;
+	font-size:16px;
+}
+
+.OnlineShop .Default .Body .LeftSide .Content .NewTitle{		
+	margin:2px;
+	text-align:left;
+	font-size:16px;
+}
+
+.OnlineShop .Default .Body .LeftSide .Content .FeedbackIcon{
+	width:22px;
+	height:22px;			
+	background:url(../sourceImage/icons/feedback.gif) no-repeat ;
+	margin:2px;
+}
+.OnlineShop .Default .Body .LeftSide .Content .FeedbackTitle{		
+	margin:2px;
+	text-align:left;
+	font-size:16px;
+}
+.OnlineShop .Default .Body .LeftSide .Content .FeedbackShort{		
+	margin-left:12px;	
+	font-size:16px;
+	font-style:italic;
+}
+/* ################ BODY CenterRightSide #################*/
+.OnlineShop .Default .Body .CenterRightSide{	
+	margin-left:225px ;
+	width:auto;
+	
+}
+
+.OnlineShop .Default .Body .CenterRightSide .RightSide{
+	width:150px;
+	
+}
+.OnlineShop .Default .Body .CenterRightSide .RightSide .SpecialOffe {
+	margin-bottom:10px;
+}
+.OnlineShop .Default .Body .CenterRightSide .RightSide .OfferedIcon{
+	width:auto;
+	height:27px;
+	padding-left:22px;			
+}
+.OnlineShop .Default .Body .CenterRightSide .RightSide .SpecialOffeContent{	
+	background:#FFFFDD;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .RightSide .SpecialOffeItem{
+	width:120px;
+	height:120px;
+	margin:auto;
+}
+.OnlineShop .Default .Body .CenterRightSide .RightSide .SpecialOffeValue{
+	width:auto;
+	height:24px;
+	margin:auto;
+	text-align:center;
+	color:#3333FF;
+	font-style:italic;	
+}.OnlineShop .Default .Body .CenterRightSide .RightSide .SpecialOffeBook{
+	width:120px;
+	height:24px;
+	margin:auto;
+	text-align:center;
+	color:red;
+	font-size:16px;
+	font-style:italic;	
+}
+/*#######-------Center HolderContent-------######*/
+
+.OnlineShop .Default .Body .CenterRightSide .Center{		
+	margin-right:155px;	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .RunningText {
+	width:300px;
+	margin:auto;
+	height:20px;
+	text-shadow:#6666FF;	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .HomeIcon{
+	width:22px;
+	height:22px;
+	margin:3px;
+	cursor:pointer;
+	background:url(../sourceImage/icons/home.gif) no-repeat ;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .HolderContent{
+	background:#FFFFDD;
+	float: left;
+	margin-right:10px;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .HolderContent .Detail{
+	margin-left:1px;
+	margin-right:1px;
+	border-bottom:solid 3px #990000 ;
+	border-left:solid 1px #990000 ;
+	border-right:solid 1px #990000  ;
+	/*height:700px;*/
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .HolderContent .LeftBar{
+	width:auto;
+	height:26px;
+	/*margin-left:4px;*/
+	padding-left:26px;	
+	background:url(../sourceImage/thongtinleft.gif) no-repeat left;
+
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .HolderContent .RightBar{
+	width:auto;
+	height:26px;
+	padding-right:26px;
+	/*margin-right:4px;*/
+	background:url(../sourceImage/thongtinright.gif) no-repeat right;
+
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .HolderContent .TitleBar{
+	width:auto;
+	height:26px;	
+	line-height:26px;	
+	text-align:left;
+	cursor:pointer;
+	background:url(../sourceImage/thongtinre.gif) repeat-x;
+	text-transform:uppercase;	
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent{
+	margin:auto ;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .InfoBar{
+	border-top: solid 2px red ;
+	/*border-bottom: solid 2px red ;*/
+	height:26px;	
+	background:#FFCC66;
+	margin-top:0px;
+	margin-bottom:4px;	
+}
+
+
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .Icon{
+	width:24px;
+	height:24px;		
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .LabelBar{
+	width:auto;
+	height:27px;
+	line-height:27px;	
+	text-align:left;
+	cursor:pointer;
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ProductHolder{
+	width:auto;
+	margin-top:10px;	
+	margin-left:auto ;	
+	margin-right:auto ;	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ProductNew{	
+	font-size:16px;
+	margin-right:120px;
+	width:auto;
+	/*height:200px;*/
+	overflow:hidden;
+	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ProductNewImage{		
+	width:130px;
+	height:130px;
+	margin:5px;
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ProductNewName{		
+	width:auto;
+	height:24px;
+	font-weight:bold;
+	margin:5px;
+	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .RelativePro{	
+	width:120px;
+	font-size:16px;	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .RelativeProName{	
+	font-style:italic;
+	margin-bottom:3px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .Product{	
+	margin-left:10%;	
+	width:200px;
+	height:200px;
+	font-size:16px;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ImageContent{	
+	margin:auto;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ProductImage{
+	width:80px;
+	height:80px;
+	margin:4px;	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ProductShort{
+	
+	line-height:normal;
+	margin-left:82px;	
+	text-align:left;
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .ProductQuick{
+	width:auto;	
+	height:26px;	
+	text-align:right;
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .Prices{
+	width:auto;	
+	height:26px;	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .InfoContent .Booking{
+	width:auto;	
+	height:26px;	
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .CategoryAll{
+	width:auto;
+	height:auto;
+	text-align:center;
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .CateGoryItem{
+	width:130px;
+	margin-left:6px;	
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .CateGoryItem a{
+	text-decoration:none;
+}
+
+
+
+.OnlineShop .Default .Body .CenterRightSide .Center .CateGoryItemName{
+	height:24px;	
+	font-size:16px;	
+	text-decoration:none;	
+	text-transform:lowercase;
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .CateGoryQuickBook{
+	height:24px;
+	font-size:16px;	
+	text-align:right;	
+	text-decoration:none;	
+}
+
+
+.OnlineShop .Default .Body .CenterRightSide .Center .ProductDetail{
+	font-size:16px; 
+	font-style:italic;
+}
+.OnlineShop .Default .Body .CenterRightSide .Center .ProductDetailImage{
+	width:200px;
+	height:200px;
+	margin:6px;	
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .ProductDetailInfo{
+	color:#FF0000;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .ProductDetailRight{
+	width:auto;
+	margin-left:220px;
+	margin-right:50px;
+	margin-top:6px;
+	font-size:17px;
+	
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .UserLogIn{
+	font-size:16px;	
+	margin:auto;
+	width:500px;
+}
+
+.OnlineShop .Default .Body .CenterRightSide .Center .UserRegester{
+	font-size:16px;	
+	margin:auto;
+	width:500px;
+}
+
+.OnlineShop .Default .Footer{
+	width:auto ;
+	height:60px;
+	background:#ADC5E3;
+}
+.OnlineShop .Default .Footer .CompanyInfo{
+	text-align:center ;
+}
+
+.OnlineShop .Default .Footer .FooterInfo{
+	width:auto;
+	height:30px;
+}
+.OnlineShop .Default .Footer .LineBar{
+	width:auto;
+	height:31px;
+	line-height:31px;
+	
+}
+/**#### action button ##**/
+
+
+

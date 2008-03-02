@@ -1,0 +1,41 @@
+
+<script language="JavaScript" type="text/JavaScript">
+var myimages=new Array() ;
+myimages[1]="image1.jpg" ; 
+myimages[2]="image2.jpg" ;
+myimages[3]="image3.jpg" ;
+myimages[4]="image4.jpg" ;
+myimages[5]="image5.jpg" ;
+var time ;
+
+function beginTime(functionName) {
+  intervalID = setInterval(functionName, 1000);
+}
+function countTime(){
+	date = new Date() ;
+	time = date ;
+	hh = date.getHours() ;
+	mm = date.getMinutes() ;
+	ss = date.getSeconds() ;
+	ms = date.getMilliseconds() ;
+	day = date.getDate() ;
+	month = date.getMonth()+1 ;
+	year = date.getYear();
+	document.getElementById("time").innerHTML = new Date(time - begin).getMinutes()+":"+ new Date(time - begin).getSeconds();
+}
+var begin = new Date() ;
+function getTotalTime(divId) {
+	end = new Date() ;
+	ss = parseFloat((end-begin)/100) ;
+	document.getElementById(divId).innerHTML  = ss;
+}
+function overrideOnload() {	
+	beginTime(countTime);
+	getTotalTime("total");
+}
+window.onload = overrideOnload;
+</script>
+<div style="" >
+	<div id="total" style="border:solid 1px blue;width:40px;float:left;text-align:center;"><span>0</span></div>
+	<div id="time" style="border:solid 1px blue;width:40px;text-align:center;"><span>0:0</span></div>
+</div>

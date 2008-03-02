@@ -1,0 +1,118 @@
+.UIAction {
+  margin-top: 3px; 
+}
+
+.UIAction .ActionContainer {
+  line-height:26px;
+  height: 26px;
+	overflow:hidden ; 	
+}
+
+.UIAction .ActionContainer .Button {
+	margin-left: 4px ;
+	width: 78px ;
+	float: right;
+}
+
+.UIAction .ActionContainer .Button .Icon {
+  float: left ;
+  margin-top: 6px ; margin-left: 3px ;
+}
+
+.UIAction .ActionContainer .Button .TextAction {
+	float: left;
+  margin: 0px 7px 0px 7px ;
+  font-weight: normal; text-align: center;
+}
+
+.UIAction .ActionContainer .Button a {
+  height: 23px ;  line-height: 23px ;
+  vertical-align: middle ;
+  text-decoration: none ;
+  float: left ;
+  color: black ; font-weight: normal ; font-size: 11px ;
+  margin: 1px 0px 0px 7px;
+}
+
+.UIAction .ActionContainer .Button a:hover {
+  color: #1d6ac7;
+  font-weight: bold ; font-size: 12px;
+}
+
+/*##############################-ActionButton-################################*/
+.UIAction .ActionContainer .ActionButton {
+  width: 80px;
+	line-height: 26px;
+	height:26px;
+	margin-left: 4px ;	
+}
+
+.UIAction .ActionContainer .ActionButton  a {
+  height: 23px ;  line-height: 23px ;
+  vertical-align: middle ;
+  text-decoration: none ;  
+  color: black ; font-weight: normal ; font-size: 14px ;
+ 
+}
+
+.UIAction .ActionContainer .ActionButton  a:hover {
+  color: blue;
+	 
+}
+
+.UIAction .ActionContainer .ActionButton .Icon {
+  width: 16px ;  height: 16px ;
+  margin: 3px ; 
+}
+
+.UIAction .ActionContainer .ActionButton .ActionText {
+  float: left;  
+  cursor: pointer;
+}
+
+/*##############################-Normal ActionButton-################################*/
+.UIAction .ActionContainer .ActionButton .NormalStyle {
+}
+
+.UIAction .ActionContainer .ActionButton .NormalStyle .ButtonLeft {
+	height: 26px; line-height: 26px;
+  padding-left: 4px;
+  background: url(images/NormalStyleButtonLeft4x26.gif) no-repeat left;
+}
+
+.UIAction .ActionContainer .ActionButton .NormalStyle .ButtonRight {
+	height: 26px; line-height: 26px;
+  padding-right: 4px;
+  background: url(images/NormalStyleButtonRight4x26.gif) no-repeat right;
+}
+
+.UIAction .ActionContainer .ActionButton .NormalStyle .ButtonMiddle {
+	height: 26px; line-height: 26px;
+	background: url(images/NormalStyleButtonMiddle1x26.gif) repeat-x;
+	text-align:center;
+}
+
+/*##############################-LightBlueStyle ActionButton-################################*/
+.UIAction .ActionContainer .ActionButton .LightBlueStyle {
+}
+
+.UIAction .ActionContainer .ActionButton .LightBlueStyle .ButtonLeft {
+	height: 26px; line-height: 26px;
+  padding-left: 4px;
+  background: url(images/LightBlueStyleButtonLeft4x26.gif) no-repeat left;
+}
+
+.UIAction .ActionContainer .ActionButton .LightBlueStyle .ButtonRight {
+	height: 26px; line-height: 26px;
+  padding-right: 4px;
+  background: url(images/LightBlueStyleButtonRight4x26.gif) no-repeat right;
+}
+
+.UIAction .ActionContainer .ActionButton .LightBlueStyle .ButtonMiddle {
+  height: 26px;	line-height: 26px;
+	background: url(images/LightBlueStyleButtonMiddle1x26.gif) repeat-x;
+	text-align:center;
+}
+
+/*##############################-Icon-################################*/
+
